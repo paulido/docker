@@ -16,7 +16,7 @@ docker run -d -p 27017:27017 --name mongo-example mongo:latest
 
 ### Entrer dans le conteneur MongoDB
 ```bash
-docker exec -it mongo-example mongo
+docker exec -it mongo-example mongosh
 ```
 - Cette commande permet d'entrer dans le conteneur en cours d'exécution et d'ouvrir l'interpréteur de commandes MongoDB (`mongo`).
 
